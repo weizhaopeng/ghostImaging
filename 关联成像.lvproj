@@ -26,6 +26,9 @@
 			<Item Name="散斑模块.vi" Type="VI" URL="../散斑模块.vi"/>
 			<Item Name="散斑图像作用模块.vi" Type="VI" URL="../散斑图像作用模块.vi"/>
 			<Item Name="算法优化模块.vi" Type="VI" URL="../算法优化模块.vi"/>
+			<Item Name="MES_PSNR.vi" Type="VI" URL="../../高阶差值筛选关联成像/MES_PSNR.vi"/>
+			<Item Name="可见度.vi" Type="VI" URL="../../高阶差值筛选关联成像/可见度.vi"/>
+			<Item Name="my Normalize.vi" Type="VI" URL="../../高阶差值筛选关联成像/my Normalize.vi"/>
 		</Item>
 		<Item Name="程序生成规范" Type="Build"/>
 	</Item>
