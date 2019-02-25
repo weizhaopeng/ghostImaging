@@ -11,24 +11,26 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
-		<Item Name="重构模块" Type="Folder">
-			<Item Name="重构模块.vi" Type="VI" URL="../重构模块.vi"/>
+		<Item Name="重建模块" Type="Folder" URL="../重建模块">
+			<Property Name="NI.DISK" Type="Bool">true</Property>
 		</Item>
-		<Item Name="算法优化模块" Type="Folder"/>
-		<Item Name="光源物体作用模块" Type="Folder">
-			<Item Name="光源物体作用模块.vi" Type="VI" URL="../光源物体作用模块.vi"/>
+		<Item Name="算法优化模块" Type="Folder" URL="../算法优化模块">
+			<Property Name="NI.DISK" Type="Bool">true</Property>
 		</Item>
-		<Item Name="其他模块" Type="Folder"/>
-		<Item Name="光源模块" Type="Folder"/>
+		<Item Name="散斑模块" Type="Folder" URL="../散斑模块">
+			<Property Name="NI.DISK" Type="Bool">true</Property>
+		</Item>
+		<Item Name="物体模块" Type="Folder" URL="../物体模块">
+			<Property Name="NI.DISK" Type="Bool">true</Property>
+		</Item>
+		<Item Name="显示模块" Type="Folder" URL="../显示模块">
+			<Property Name="NI.DISK" Type="Bool">true</Property>
+		</Item>
+		<Item Name="输入输出模块" Type="Folder" URL="../输入输出模块">
+			<Property Name="NI.DISK" Type="Bool">true</Property>
+		</Item>
 		<Item Name="main.vi" Type="VI" URL="../main.vi"/>
-		<Item Name="散斑物体作用.vi" Type="VI" URL="../散斑物体作用.vi"/>
-		<Item Name="显示模块.vi" Type="VI" URL="../显示模块.vi"/>
-		<Item Name="依赖关系" Type="Dependencies">
-			<Item Name="图像模块.vi" Type="VI" URL="../图像模块.vi"/>
-			<Item Name="散斑模块.vi" Type="VI" URL="../散斑模块.vi"/>
-			<Item Name="算法优化模块.vi" Type="VI" URL="../算法优化模块.vi"/>
-			<Item Name="数据.rtm" Type="Document" URL="../../../数据.rtm"/>
-		</Item>
+		<Item Name="依赖关系" Type="Dependencies"/>
 		<Item Name="程序生成规范" Type="Build"/>
 	</Item>
 </Project>
