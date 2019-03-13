@@ -30,6 +30,8 @@
 			<Property Name="NI.DISK" Type="Bool">true</Property>
 		</Item>
 		<Item Name="main.vi" Type="VI" URL="../main.vi"/>
+		<Item Name="comprI+.vi" Type="VI" URL="../../庄鹏程序-立体图像-过程很长/子VI/comprI+.vi"/>
+		<Item Name="omp.vi" Type="VI" URL="../../庄鹏程序-立体图像-过程很长/子VI/omp.vi"/>
 		<Item Name="依赖关系" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="imagedata.ctl" Type="VI" URL="/&lt;vilib&gt;/picture/picture.llb/imagedata.ctl"/>
@@ -41,7 +43,23 @@
 				<Item Name="Read BMP Header Info.vi" Type="VI" URL="/&lt;vilib&gt;/picture/bmp.llb/Read BMP Header Info.vi"/>
 				<Item Name="Read BMP File Data.vi" Type="VI" URL="/&lt;vilib&gt;/picture/bmp.llb/Read BMP File Data.vi"/>
 				<Item Name="Read BMP File.vi" Type="VI" URL="/&lt;vilib&gt;/picture/bmp.llb/Read BMP File.vi"/>
+				<Item Name="NI_AALBase.lvlib" Type="Library" URL="/&lt;vilib&gt;/Analysis/NI_AALBase.lvlib"/>
+				<Item Name="MC_Version.vi" Type="VI" URL="/&lt;vilib&gt;/imath/engines/lvmath2/RunTimeEngine/Parser/MC_Version.vi"/>
+				<Item Name="Read DBL 2D.vi" Type="VI" URL="/&lt;vilib&gt;/imath/engines/lvmath/Plug In/BaseType/read/Read DBL 2D.vi"/>
+				<Item Name="Merge Errors.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Merge Errors.vi"/>
+				<Item Name="Read DBL 1D.vi" Type="VI" URL="/&lt;vilib&gt;/imath/engines/lvmath/Plug In/BaseType/read/Read DBL 1D.vi"/>
+				<Item Name="NI_Matrix.lvlib" Type="Library" URL="/&lt;vilib&gt;/Analysis/Matrix/NI_Matrix.lvlib"/>
+				<Item Name="NI_AALPro.lvlib" Type="Library" URL="/&lt;vilib&gt;/Analysis/NI_AALPro.lvlib"/>
+				<Item Name="RealMatrix.ctl" Type="VI" URL="/&lt;vilib&gt;/Analysis/Matrix/Support/RealMatrix/RealMatrix.ctl"/>
+				<Item Name="ComplexMatrix.ctl" Type="VI" URL="/&lt;vilib&gt;/Analysis/Matrix/Support/ComplexMatrix/ComplexMatrix.ctl"/>
 			</Item>
+			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
+			<Item Name="GaussianBeam.vi" Type="VI" URL="../算法优化模块/数据优化/图像DCT变换/HotImg Folder/C/Program Files/National Instruments/LabVIEW 8.6/user.lib/WaveTrace2D.llb/GaussianBeam.vi"/>
+			<Item Name="wedge.vi" Type="VI" URL="../算法优化模块/数据优化/图像DCT变换/HotImg Folder/C/Program Files/National Instruments/LabVIEW 8.6/user.lib/WaveTrace2D.llb/wedge.vi"/>
+			<Item Name="SNR-MSE.vi" Type="VI" URL="../算法优化模块/数据优化/压缩感知/基于压缩感知-GP/SNR-MSE.vi"/>
+			<Item Name="GaussianBeam.vi" Type="VI" URL="../算法优化模块/数据优化/图像DCT变换/subvi/C/Program Files/National Instruments/LabVIEW 8.6/user.lib/WaveTrace2D.llb/GaussianBeam.vi"/>
+			<Item Name="wedge.vi" Type="VI" URL="../算法优化模块/数据优化/图像DCT变换/subvi/C/Program Files/National Instruments/LabVIEW 8.6/user.lib/WaveTrace2D.llb/wedge.vi"/>
+			<Item Name="1N.vi" Type="VI" URL="../../庄鹏程序-立体图像-过程很长/子VI/1N.vi"/>
 		</Item>
 		<Item Name="程序生成规范" Type="Build"/>
 	</Item>
