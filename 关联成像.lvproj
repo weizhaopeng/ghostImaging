@@ -30,8 +30,6 @@
 			<Property Name="NI.DISK" Type="Bool">true</Property>
 		</Item>
 		<Item Name="main.vi" Type="VI" URL="../main.vi"/>
-		<Item Name="comprI+.vi" Type="VI" URL="../../庄鹏程序-立体图像-过程很长/子VI/comprI+.vi"/>
-		<Item Name="omp.vi" Type="VI" URL="../../庄鹏程序-立体图像-过程很长/子VI/omp.vi"/>
 		<Item Name="依赖关系" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="imagedata.ctl" Type="VI" URL="/&lt;vilib&gt;/picture/picture.llb/imagedata.ctl"/>
@@ -56,10 +54,6 @@
 			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
 			<Item Name="GaussianBeam.vi" Type="VI" URL="../算法优化模块/数据优化/图像DCT变换/HotImg Folder/C/Program Files/National Instruments/LabVIEW 8.6/user.lib/WaveTrace2D.llb/GaussianBeam.vi"/>
 			<Item Name="wedge.vi" Type="VI" URL="../算法优化模块/数据优化/图像DCT变换/HotImg Folder/C/Program Files/National Instruments/LabVIEW 8.6/user.lib/WaveTrace2D.llb/wedge.vi"/>
-			<Item Name="SNR-MSE.vi" Type="VI" URL="../算法优化模块/数据优化/压缩感知/基于压缩感知-GP/SNR-MSE.vi"/>
-			<Item Name="GaussianBeam.vi" Type="VI" URL="../算法优化模块/数据优化/图像DCT变换/subvi/C/Program Files/National Instruments/LabVIEW 8.6/user.lib/WaveTrace2D.llb/GaussianBeam.vi"/>
-			<Item Name="wedge.vi" Type="VI" URL="../算法优化模块/数据优化/图像DCT变换/subvi/C/Program Files/National Instruments/LabVIEW 8.6/user.lib/WaveTrace2D.llb/wedge.vi"/>
-			<Item Name="1N.vi" Type="VI" URL="../../庄鹏程序-立体图像-过程很长/子VI/1N.vi"/>
 		</Item>
 		<Item Name="程序生成规范" Type="Build"/>
 	</Item>
