@@ -54,6 +54,7 @@
 			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
 			<Item Name="GaussianBeam.vi" Type="VI" URL="../算法优化模块/数据优化/图像DCT变换/HotImg Folder/C/Program Files/National Instruments/LabVIEW 8.6/user.lib/WaveTrace2D.llb/GaussianBeam.vi"/>
 			<Item Name="wedge.vi" Type="VI" URL="../算法优化模块/数据优化/图像DCT变换/HotImg Folder/C/Program Files/National Instruments/LabVIEW 8.6/user.lib/WaveTrace2D.llb/wedge.vi"/>
+			<Item Name="计算散斑矩阵列平均值.vi" Type="VI" URL="../重建模块/计算二阶正图像/计算散斑矩阵列平均值.vi"/>
 		</Item>
 		<Item Name="程序生成规范" Type="Build"/>
 	</Item>
