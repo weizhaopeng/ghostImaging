@@ -50,6 +50,9 @@
 				<Item Name="NI_AALPro.lvlib" Type="Library" URL="/&lt;vilib&gt;/Analysis/NI_AALPro.lvlib"/>
 				<Item Name="RealMatrix.ctl" Type="VI" URL="/&lt;vilib&gt;/Analysis/Matrix/Support/RealMatrix/RealMatrix.ctl"/>
 				<Item Name="ComplexMatrix.ctl" Type="VI" URL="/&lt;vilib&gt;/Analysis/Matrix/Support/ComplexMatrix/ComplexMatrix.ctl"/>
+				<Item Name="Application Directory.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Application Directory.vi"/>
+				<Item Name="NI_FileType.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/lvfile.llb/NI_FileType.lvlib"/>
+				<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Error Cluster From Error Code.vi"/>
 			</Item>
 			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
 			<Item Name="GaussianBeam.vi" Type="VI" URL="../算法优化模块/数据优化/图像DCT变换/HotImg Folder/C/Program Files/National Instruments/LabVIEW 8.6/user.lib/WaveTrace2D.llb/GaussianBeam.vi"/>
